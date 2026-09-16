@@ -1,51 +1,41 @@
-# 📊 Bangladesh Population Dashboard (Excel Project)
+# Bangladesh Population Dashboard — Excel
 
-![Tool](https://img.shields.io/badge/Tool-Microsoft_Excel-green?logo=microsoftexcel)
-![Data](https://img.shields.io/badge/Data-Kaggle-blue?logo=kaggle)
-![Status](https://img.shields.io/badge/Status-Complete-green)
-![License](https://img.shields.io/badge/License-MIT-brightgreen)
+An Excel dashboard for exploring population, area, density, and distribution across Bangladesh’s divisions and districts using the included city/population data.
 
-A comprehensive Excel dashboard analyzing the population trends, density, and distribution across various divisions and districts of Bangladesh using data from 1991 to 2022.
+> **Project status:** Completed dashboard project. No live demo link is provided in the repository.
 
-## 🚀 Dashboard Preview
+## Dashboard preview
 
-Here is a high-level overview of the final interactive dashboard.
+![Bangladesh population dashboard](dashboard-preview.png)
 
-![Bangladesh Population Dashboard Preview](dashboard-preview.png)
+## Problem and analysis scope
 
----
+The workbook turns population records into an interactive dashboard with division slicers, KPI cards, trend charts, comparisons of area and population, and rankings of districts/cities. The project documentation describes coverage from 1991 to 2022.
 
-## 🎯 Project Overview
+## Tools and techniques
 
-The primary goal of this project was to leverage Microsoft Excel's data analysis and visualization capabilities to create a fully interactive dashboard. Using a dataset sourced from Kaggle, this dashboard provides insights into population trends, density, and key demographic metrics across Bangladesh.
+- Microsoft Excel workbook with formulas, PivotTables, PivotCharts, and slicers.
+- Line, bar, pie, and scatter visualizations.
+- Population, area, and density comparisons by division/district.
 
----
+## Dataset and citation
 
-## 🛠️ Tools & Techniques Used
+`city_population.csv` is included and is described in the original project as the Bangladesh City Population Dataset sourced from Kaggle. The repository does not include the original Kaggle URL or a formal citation, so verify the publisher and terms before redistribution.
 
-* **Microsoft Excel:**
-    * **Pivot Tables & Pivot Charts:** Used to aggregate and summarize large datasets.
-    * **Slicers:** Implemented for interactive filtering of the dashboard by Division.
-    * **Data Visualization:** Utilized a combination of Line Charts, Bar Charts, Pie Charts, and Scatter Plots to visualize patterns.
-    * **Formulas:** Applied various formulas for data preparation and KPI calculation.
-* **Data Source:** Kaggle (Bangladesh City Population Dataset)
+## Use the workbook
 
----
+1. Open `City Polution.xlsx` in Microsoft Excel. (The filename is preserved as committed.)
+2. If Excel prompts for a source, use the included `city_population.csv`.
+3. Refresh the PivotTables/connections if required, then use the division slicer and dashboard visuals.
 
-## 📈 Key Analyses & Insights
+## Reported views
 
-This dashboard visualizes several key aspects of the population data:
+The dashboard includes total divisions, total districts, total area, population trends, 2022 area-versus-population comparisons, large-city area rankings, density comparisons, and populous-district shares. The repository does not provide an independent methodology or validation report for these figures.
 
-* **KPIs:** Displays high-level metrics including Total Divisions (7), Total Districts (64), and Total Area (1,47,584 km²).
-* **Population Trend (1991-2022):** A line chart illustrating the population growth trajectory for each division over three decades.
-* **Area vs. Population (2022):** A scatter plot analyzing the correlation between the area (km²) of districts and their population in 2022.
-* **Top 10 Big City by Area:** A bar chart identifying the largest cities based on their area.
-* **Average Population Density (2022):** A column chart comparing the population density (people per km²) of key districts within the Sylhet division.
-* **Top 10 Most Populous Districts (2022):** A pie chart showing the share of the top 10 most populous districts.
+## Limitations and license
 
----
+This is a static workbook based on the supplied dataset and should not be treated as a live demographic source. No `LICENSE` file is present, so license status is **not specified**.
 
-## 📁 Project Files
+## Author and contact
 
-* **`City_Population.xlsx`:** The main Excel workbook containing the raw data, pivot tables, and the final interactive dashboard.
-* **`city_population.csv`:** The original raw dataset used for this analysis (sourced from Kaggle).
+Jahid Hasan — [GitHub](https://github.com/jahidstm) · [LinkedIn](https://www.linkedin.com/in/jahidstm/)
